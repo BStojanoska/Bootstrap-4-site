@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang- "en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blogger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Fixed navbar on top -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+        <div class="navbar-brand">Blogger</div>
+
+        <!-- Button that shows on mobile - collapsable menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right navbar links, on mobile screens toggled with a button with a dropdown menu -->
+        <div class="collapse navbar-collapse justify-content: stretch" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#explore">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#create">Create</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#share">Share</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <!-- Header section containing the ul and the big heading, including background image overlay -->
+        <header class="row justify-content-center" id="home">
+            
+            <!-- Heading -->
+            <div class="d-none d-lg-block col-lg-5">
+                <h1>Build
+                    <span>social profiles</span> and gain revenue and
+                    <span>profits</span>
+                </h1>
+                <!-- Ul that has stacked Font Awesome bulletins in order to display the correct color underneath without overflowing from the i element -->
+                <ul>
+                    <li class="d-flex justify-content-center">
+                        <span class="fa-stack fa-fw">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-check-square fa-stack-2x"></i>
+                        </span>
+                        <!-- Li-item added to span in order to indent the text from the FA icons -->
+                        <span class="li-item">Nulla ipsum cupidatat laboris aute amet. Nisi culpa cupidatat et laboris deserunt ut qui incididunt
+                            proident duis mollit. Sit amet ea magna reprehenderit deserunt sit.</span>
+                    </li>
+
+                    <li class="d-flex justify-content-center">
+                        <span class="fa-stack fa-fw">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-check-square fa-stack-2x"></i>
+                        </span>
+                        <span class="li-item">Nulla ipsum cupidatat laboris aute amet. Nisi culpa cupidatat et laboris deserunt ut qui incididunt
+                            proident duis mollit. Sit amet ea magna reprehenderit deserunt sit.</span>
+                    </li>
+
+                    <li class="d-flex justify-content-center">
+                        <span class="fa-stack fa-fw">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-check-square fa-stack-2x"></i>
+                        </span>
+                        <span class="li-item">Nulla ipsum cupidatat laboris aute amet. Nisi culpa cupidatat et laboris deserunt ut qui incididunt
+                            proident duis mollit. Sit amet ea magna reprehenderit deserunt sit.</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Form section -->
+            <div class="col-lg-3  col-lg-offset-1 col-11 form-div">
+                <form>
+                    <h4>Sign Up Today</h4>
+                    <p>Please fill out this form to register</p>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Confirm Password" />
+                    </div>
+                    <button type="submit" class="btn form-div btn-outline-light btn-block">Submit</button>
+                </form>
+            </div>
+        </header>
+
+        <!-- Main section, which contains everything till footer -->
+        <main>
+
+            <!-- Explore main section, had to put row / column in order to have a background color that spans 12 columns -->
+            <div class="row explore-section">
+                <a name="explore"></a>
+                <div class="col-12 explore-main">
+                    <div class="row d-flex justify-content-center">
+
+                        <!-- The actual content div spans 10 columns -->
+                        <div class="col-10 col-md-11">
+                            <h1>Explore</h1>
+                            <p>Ut eu cupidatat tempor non. Ex culpa officia cillum sunt fugiat incididunt proident commodo amet
+                                tempor officia esse culpa est. Excepteur veniam enim incididunt enim occaecat commodo ex.
+                                Aliqua esse magna eiusmod enim irure qui sit ex consequat ex sint. Ea consectetur eu laborum
+                                dolor excepteur proident aliqua tempor tempor cupidatat cillum proident laborum. Qui qui
+                                officia in non. Et sunt ipsum enim aute eu in nisi.</p>
+                            <button type="submit" class="btn btn-outline-light">Find Out More</button>
+                        </div>
+                    </div>
+                    <!-- end of explore-main -->
+                </div>
+
+                <div class="col-12 explore-second">
+
+                    <!-- Row for the img and text for the second explore section -->
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-5 col-11">
+                            <img src="Images/explore-section11.jpg" />
+                        </div>
+
+                        <div class="col-lg-5 col-11 explore-text">
+                            <h2>Explore & Connect</h2>
+                            <p>Incididunt sit ullamco duis aliquip. Aliquip est laborum aliqua id eiusmod ipsum. Do eu occaecat
+                                elit aute incididunt ipsum. Nostrud esse est ad sunt irure minim laborum ea et deserunt.
+                                Eu laboris irure proident culpa velit tempor velit ipsum esse amet elit elit.</p>
+
+                            <ul>
+                                <li class="d-flex justify-content-center">
+                                    <i class="fas fa-check-square fa-2x"></i>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <i class="fas fa-check-square fa-2x"></i>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                            </ul>
+                            <!-- end of explore-text -->
+                        </div>
+                    </div>
+
+                </div>
+                <!--end of explore section row  -->
+            </div>
+
+            <div class="row create-section">
+                <a name="create"></a>
+
+                <div class="col-12 create-main">
+                    <div class="row d-flex justify-content-center">
+
+                        <!-- The actual content div spans 10 columns -->
+                        <div class="col-10 col-md-11">
+                            <h1>Create</h1>
+                            <p>Ut eu cupidatat tempor non. Ex culpa officia cillum sunt fugiat incididunt proident commodo amet
+                                tempor officia esse culpa est. Excepteur veniam enim incididunt enim occaecat commodo ex.
+                                Aliqua esse magna eiusmod enim irure qui sit ex consequat ex sint. Ea consectetur eu laborum
+                                dolor excepteur proident aliqua tempor tempor cupidatat cillum proident laborum. Qui qui
+                                officia in non. Et sunt ipsum enim aute eu in nisi.</p>
+                            <button type="submit" class="btn btn-outline-light">Find Out More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 create-second">
+
+                    <!-- Row for the img and text for the second explore section -->
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                        <div class="col-lg-5 col-11 create-text">
+                            <h2>Create Your Passion</h2>
+                            <p>Incididunt sit ullamco duis aliquip. Aliquip est laborum aliqua id eiusmod ipsum. Do eu occaecat
+                                elit aute incididunt ipsum. Nostrud esse est ad sunt irure minim laborum ea et deserunt.
+                                Eu laboris irure proident culpa velit tempor velit ipsum esse amet elit elit.</p>
+
+                            <ul>
+                                <li class="d-flex justify-content-center">
+                                    <span class="fa-stack fa-fw">
+                                        <i class="fas fa-square fa-stack-2x"></i>
+                                        <i class="fas fa-check-square fa-stack-2x"></i>
+                                    </span>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <span class="fa-stack fa-fw">
+                                        <i class="fas fa-square fa-stack-2x"></i>
+                                        <i class="fas fa-check-square fa-stack-2x"></i>
+                                    </span>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-5 col-11">
+                            <img src="Images/create-section11.jpg" />
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- end of row create section -->
+            </div>
+
+            <div class="row share-section">
+                <a name="share"></a>
+
+                <div class="col-12 share-main">
+                    <div class="row d-flex justify-content-center">
+
+                        <!-- The actual content div spans 10 columns -->
+                        <div class="col-10 col-md-11">
+                            <h1>Share</h1>
+                            <p>Ut eu cupidatat tempor non. Ex culpa officia cillum sunt fugiat incididunt proident commodo amet
+                                tempor officia esse culpa est. Excepteur veniam enim incididunt enim occaecat commodo ex.
+                                Aliqua esse magna eiusmod enim irure qui sit ex consequat ex sint. Ea consectetur eu laborum
+                                dolor excepteur proident aliqua tempor tempor cupidatat cillum proident laborum. Qui qui
+                                officia in non. Et sunt ipsum enim aute eu in nisi.</p>
+                            <button type="submit" class="btn btn-outline-light">Find Out More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 share-second">
+
+                    <!-- Row for the img and text for the second explore section -->
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-5 col-11">
+                            <img src="Images/share-section11.jpg" />
+                        </div>
+
+                        <div class="col-lg-5 col-11 explore-text">
+                            <h2>Share What You Create</h2>
+                            <p>Incididunt sit ullamco duis aliquip. Aliquip est laborum aliqua id eiusmod ipsum. Do eu occaecat
+                                elit aute incididunt ipsum. Nostrud esse est ad sunt irure minim laborum ea et deserunt.
+                                Eu laboris irure proident culpa velit tempor velit ipsum esse amet elit elit.</p>
+
+                            <ul>
+                                <li class="d-flex justify-content-center">
+                                    <i class="fas fa-check-square fa-2x"></i>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                                <li class="d-flex justify-content-center">
+                                    <i class="fas fa-check-square fa-2x"></i>
+                                    <span class="li-item">Magna ex nulla ad ea do ipsum pariatur eiusmod deserunt mollit irure magna reprehenderit.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- end of share-section row -->
+            </div>
+
+        </main>
+
+        <footer class="row">
+                <div class="col-12">
+
+                    <h2>BLOGGER</h2>
+                    <p>Copyright &copy 2017</p>
+                    <button class="btn btn-primary">Contact Us</button>
+
+                </div>
+        </footer>
+        <!-- end of container-fluid -->
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
