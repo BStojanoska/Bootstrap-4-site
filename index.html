@@ -13,10 +13,10 @@
         crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarid">
 
     <!-- Fixed navbar on top -->
-    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top" id="navbarid">
         <div class="navbar-brand">Blogger</div>
 
         <!-- Button that shows on mobile - collapsable menu -->
@@ -48,7 +48,7 @@
 
         <!-- Header section containing the ul and the big heading, including background image overlay -->
         <header class="row justify-content-center" id="home">
-            
+
             <!-- Heading -->
             <div class="d-none d-lg-block col-lg-5">
                 <h1>Build
@@ -115,7 +115,7 @@
         <main>
 
             <!-- Explore main section, had to put row / column in order to have a background color that spans 12 columns -->
-            <div class="row explore-section">
+            <div class="row explore-section" id="explore">
                 <a name="explore"></a>
                 <div class="col-12 explore-main">
                     <div class="row d-flex justify-content-center">
@@ -166,7 +166,7 @@
                 <!--end of explore section row  -->
             </div>
 
-            <div class="row create-section">
+            <div class="row create-section" id="create">
                 <a name="create"></a>
 
                 <div class="col-12 create-main">
@@ -226,7 +226,7 @@
                 <!-- end of row create section -->
             </div>
 
-            <div class="row share-section">
+            <div class="row share-section" id="share">
                 <a name="share"></a>
 
                 <div class="col-12 share-main">
@@ -281,13 +281,13 @@
         </main>
 
         <footer class="row">
-                <div class="col-12">
+            <div class="col-12">
 
-                    <h2>BLOGGER</h2>
-                    <p>Copyright &copy 2017</p>
-                    <button class="btn btn-primary">Contact Us</button>
+                <h2>BLOGGER</h2>
+                <p>Copyright &copy 2017</p>
+                <button class="btn btn-primary">Contact Us</button>
 
-                </div>
+            </div>
         </footer>
         <!-- end of container-fluid -->
     </div>

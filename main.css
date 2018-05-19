@@ -3,6 +3,10 @@
     letter-spacing: .1em;
 }
 
+body {
+    position: relative;
+}
+
 a[name] { 
     display: block; 
     margin-top: -56px;
@@ -82,5 +86,3 @@ main img {
     background: #393939;
     padding: 2em 0;
 }
-
-
