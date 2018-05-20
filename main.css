@@ -7,11 +7,11 @@ body {
     position: relative;
 }
 
-a[name] { 
-    display: block; 
+a[name] {
+    padding-top: 56px;
     margin-top: -56px;
-    height: 56px;
-}
+    display: inline-block;
+}   
 
 header {
     padding: 17em 0 10em 0;
